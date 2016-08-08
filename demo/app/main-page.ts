@@ -7,7 +7,3 @@ export function pageLoaded(args: observable.EventData) {
     var page = <pages.Page>args.object;
     page.bindingContext = new HelloWorldModel();
 }
-
-export function itemTapped(args){
-    console.log(args.data)
-}
