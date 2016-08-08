@@ -1,5 +1,5 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" xmlns:atv="nativescript-autocomplete">
-  <StackLayout>
-    <atv:AutoComplete items="{{list}}" itemTap="itemTapped"/>
+  <StackLayout backgroundColor="#4E75E2" width="100%" height="100%">
+    <atv:AutoComplete items="{{list}}" itemTap="{{itemTapped}}" width="300" height="50" borderStyle="rounded"/>
   </StackLayout>
 </Page>
